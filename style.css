@@ -40,12 +40,14 @@ header > p {
 nav > a {
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: background-color 0.4s ease;
 }
 
 nav > a:hover {
-    background-color: #3DDA83;
-    padding: 10px 15px;
+    background-color: #3dda848e;
+    padding: 8px 15px;
     border-radius: 10px;
 }
 
